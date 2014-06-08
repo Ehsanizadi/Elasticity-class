@@ -43,33 +43,14 @@ class linearElastic{
 	}
 
 	//Functions declaration (setters/getters/displayers)
-	void setElasticity(double elasticity){
-		while (elasticity <0){
-			cout << "Inalid value for elasticity\n Please try again!"<< endl;
-			cin >> elasticity;
-		}
-		E = elasticity;	
-	}
+	void setElasticity(double elasticity);
 
-	void setPoissonsRatio( float poissonsRatio){
-		while (poissonsRatio <0 || poissonsRatio>0.5){
-			cout << "Inalid value for Poission's Ratio!!\n Please try again!"<< endl;
-			cin >> poissonsRatio;
-		}
-		v =  poissonsRatio;
-	}
+	void setPoissonsRatio( float poissonsRatio);
 
-	double getElasticity() {
-		return E;
-	}
+	double getElasticity() ;
 
-	float getPoissonsRatio() {
-		return v;
-	}
-	void getProperties(){
-		cout << "E = " << E << endl;
-		cout << "v = " << v << endl << "----------------------" << endl;
-	}
+	float getPoissonsRatio() ;
+	void getProperties();
 };
 // at the end, it should be pointed out that this header file corresponds to which source file
 // otherwise, at the command line, you should compile the source files too. e.g. "g++ main.cpp Elasticity.cpp"
