@@ -33,6 +33,3 @@ void linearElastic::getProperties(){
 	cout << "E = " << E << endl;
 	cout << "v = " << v << endl << "----------------------" << endl;
 }
-	
-
-
