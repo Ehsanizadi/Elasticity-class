@@ -1,5 +1,5 @@
 Elasticity-class
-================
+================+==
 
 Material properties: Elasticity class
 The Elasticity material properties class is written in c++.
