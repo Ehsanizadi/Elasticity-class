@@ -1,6 +1,5 @@
 # include<iostream>
 # include"Elasticity.h"
- 
 using namespace std;
 
 //Functions definition (setters/getters/displayers)
