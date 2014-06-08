@@ -77,4 +77,3 @@ class linearElastic{
 // But, this is the easier way, and every header file (after declaratio of parameters and functions) points to the source file
 # include "Elasticity.cpp"
 #endif
-
