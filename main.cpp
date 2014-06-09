@@ -24,7 +24,9 @@ int main () {
 	material1.setElasticity(1);
 	material1.setPoissonsRatio(0.1);
 	material2.setPoissonsRatio(0.5);
+
 	cout << "------------------------------------------------------------" << endl;
+
 	material1.getProperties();
 	material2.getProperties();
 	material3.getProperties();
