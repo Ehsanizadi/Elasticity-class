@@ -4,6 +4,7 @@
 using namespace std;
 
 //Functions definition (setters/getters/displayers)
+// Here, funtionality  of a class is explained
 
 void linearElastic::setElasticity(double elasticity){
 	while (elasticity <0){
