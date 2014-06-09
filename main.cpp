@@ -3,7 +3,7 @@
  
 using namespace std;
 
-//--------------------------------------------------------------------------------------------------------
+//Here is the user interface. Actually, user can do calculations without changing the main sourcecode.
 int main () {
 	double uE;
 	float uP;

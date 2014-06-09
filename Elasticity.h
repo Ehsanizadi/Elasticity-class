@@ -4,6 +4,7 @@
 # include<iostream>
 
 // Class definition
+
 class linearElastic{
 	//private variables are the parameters which are hidden and non-accessible by the user (internal parameters)
 	private:
@@ -72,8 +73,10 @@ class linearElastic{
 		cout << "v = " << v << endl << "----------------------" << endl;
 	}
 };
+
 // at the end, it should be pointed out that this header file corresponds to which source file
 // otherwise, at the command line, you should compile the source files too. e.g. "g++ main.cpp Elasticity.cpp"
 // But, this is the easier way, and every header file (after declaratio of parameters and functions) points to the source file
-# include "Elasticity.cpp"
+
+//# include "Elasticity.cpp"  // Not needed anymore, everything is included in the header file.
 #endif
