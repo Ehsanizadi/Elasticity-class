@@ -13,7 +13,6 @@ int main () {
 	cout<< "Input the Poission's ratio: ";
 	cin >>  uP;
 
-<<<<<<< HEAD
 	/* Two different methods used to define classes, each of them has advantages and disadvantages
 	 for more information please refer to: http://www.gribblelab.org/CBootcamp/7_Memory_Stack_vs_Heap.html
 	*/
@@ -31,7 +30,7 @@ int main () {
 	material2.setPoissonsRatio(0.5);
 	cout << "------------------------------------------------------------" << endl;
 	material1->getProperties();
-=======
+
 	linearElastic material1;
 	linearElastic material2(10e6);
 	linearElastic material3(uE, uP);
@@ -45,12 +44,12 @@ int main () {
 	material2.setPoissonsRatio(0.5);
 	cout << "------------------------------------------------------------" << endl;
 	material1.getProperties();
->>>>>>> 29bf910211d8595c26c373736719295ce94298e3
+
 	material2.getProperties();
 	material3.getProperties();
 	
 
-<<<<<<< HEAD
+
 	cout << "Elasticity for Material 1 is: " << material1->getElasticity() << endl;
 	cout << "Elasticity for Material 2 is: " << material2.getElasticity() << endl;
 	cout << "Elasticity for Material 3 is: " << material3.getElasticity() << endl;
@@ -61,7 +60,7 @@ int main () {
 
 	delete material1; // the added class using pointer should be "de-allocated" from the memory heap
 
-=======
+
 	cout << "Elasticity for Material 1 is: " << material1.getElasticity() << endl;
 	cout << "Elasticity for Material 2 is: " << material2.getElasticity() << endl;
 	cout << "Elasticity for Material 3 is: " << material3.getElasticity() << endl;
@@ -70,6 +69,6 @@ int main () {
 	cout << "Poission's ratio for Material 2 is: " << material2.getPoissonsRatio() << endl;
 	cout << "Poission's ratio for Material 3 is: " << material3.getPoissonsRatio() << endl;
 
->>>>>>> 29bf910211d8595c26c373736719295ce94298e3
+
 	return 0;
 }
