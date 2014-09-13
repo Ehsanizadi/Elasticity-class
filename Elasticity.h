@@ -35,8 +35,8 @@ class linearElastic{
 		E = elasticity;
 		v = 0.3; // default value for poisson's ratio
 	}
-		
-	//weark form
+
+	//weak form: when the magnitude of stiffness and Poisson's ratio is not important.
 	linearElastic(){
 		E = 30e6;
 		v= 0.3;
