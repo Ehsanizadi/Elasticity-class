@@ -1,7 +1,7 @@
 #ifndef Elasticity_h
 #define Elasticity_h
  
-# include<iostream>
+#include <iostream>
 
 // Class definition
 class linearElastic{
@@ -54,4 +54,3 @@ class linearElastic{
 };
 
 #endif
-
